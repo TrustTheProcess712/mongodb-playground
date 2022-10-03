@@ -1,0 +1,33 @@
+GET http://localhost:3000/subscribers/
+
+###
+
+
+GET http://localhost:3000/subscribers/6332fed4e0c328c60d55c8c1
+
+###
+
+
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+ "name": "Gman",
+ "subscribedToChannel": "SteMans Tunes"
+
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6332fe95e0c328c60d55c8bf
+
+
+###
+
+PATCH http://localhost:3000/subscribers/6332fed4e0c328c60d55c8c1
+Content-Type: application/json
+
+{
+    "name": "Big Daddy"
+}
+
